@@ -1,7 +1,7 @@
 {
-  "name": "chatbox-frontend",
+  "name": "webpack-react-router-boiler",
   "version": "0.0.1",
-  "description": "front end for chatbox application",
+  "description": "front end web development boilerplate",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/nf071590/chatbox"
+    "url": "git@github.com/nf071590/webpack-react-router-boiler.git"
   },
   "keywords": [
     "chat",
@@ -20,6 +20,7 @@
   "author": "Nick Fiorini",
   "license": "ISC",
   "dependencies": {
+    "history": "^1.13.1",
     "keymirror": "^0.1.1",
     "object-assign": "^4.0.1",
     "superagent": "^1.5.0"
@@ -55,6 +56,7 @@
     "style-loader": "^0.13.0",
     "underscore": "^1.8.3",
     "url-loader": "^0.5.7",
-    "webpack": "^1.12.9"
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0"
   }
 }

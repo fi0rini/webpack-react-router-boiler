@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from "react";
-import Navigator from 'components/Navigator';
 
 export default class Application extends Component {
     static propTypes = {
